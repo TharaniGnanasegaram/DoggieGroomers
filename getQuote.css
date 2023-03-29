@@ -1,0 +1,104 @@
+/* Name : Tharani Gnanasegaram
+Student number : 8822155 */
+
+header {
+    background-image: url("./imgs/banner22.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #logo{
+    width: 140px;
+    height: auto;
+    
+}
+
+#logoimg{
+    text-align: center;
+    align-items: center;
+}
+
+header h1{
+    padding-top: 0px;
+    font-size: 4.0em;
+    font-weight: 500;
+    margin: 0;
+    color: #dc143c;
+    font-family: 'Footlight MT', Georgia, 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+fieldset {
+    text-align: right;
+    border: none;
+    color: #a52a2a;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+body h2{
+    text-align: center;
+    color: #530a0a;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+form{
+    width:60%;
+    margin:auto;
+    display:grid;
+    grid-template-columns: 150px auto 200px;
+    box-shadow: 10px 10px 20px #aaa;
+    grid-gap: 10px;
+    padding:20px;
+    padding-bottom: 60px;
+}
+
+input[type="button"]{
+    justify-self: flex-start;
+}
+
+#buttonn{
+    display: flex;
+    gap: 10px;
+    padding-top: 15px;
+    padding-left: 160px;
+}
+
+#breeds{
+    justify-self: flex-start;
+}
+
+form * + span{
+    color:red;
+}
+
+footer{
+    
+    background-color: rgb(251, 193, 0);
+}
+
+footer div{
+    padding-left: 35px;
+}
+
+.footeritem{
+    padding-top: 25px;
+    align-items: center;
+    float: left;
+    display: block;
+    width: 20%;
+    color: #641111;
+  }
+
+  #copyright{
+      padding-top: 20px;
+      clear: both;
+      text-align: center;
+      color: #380c0c;
+  }

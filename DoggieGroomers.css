@@ -1,0 +1,171 @@
+/* Name : Tharani Gnanasegaram
+Student number : 8822155 */
+
+header {
+    background-image: url("./imgs/banner22.png");
+    background-size: cover;
+    background-position: center;
+  }
+
+  #logo{
+    width: 140px;
+    height: auto;
+    
+}
+
+#logoimg{
+    text-align: center;
+    align-items: center;
+}
+
+header h1{
+    padding-top: 0px;
+    font-size: 4.0em;
+    font-weight: 500;
+    margin: 0;
+    color: #dc143c;
+    font-family: 'Footlight MT', Georgia, 'Times New Roman', Times, serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+#gallery ul{
+    display: none;
+}
+
+#gallery img{
+    padding-top: 20px;
+    padding-left: 20px;
+    height: 400px;
+    width: 600px;
+}
+
+#gallery{
+    float: left;
+    padding-right: 50px;
+}
+
+
+fieldset {
+    text-align: right;
+    border: none;
+    color: #a52a2a;
+    padding-right: 30px;
+    padding-bottom: 30px;
+}
+
+#services h1{
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Candara', 'Times New Roman', Times, serif;
+    color: #dc143c;
+}
+
+#services h2{
+    padding-top: 20px;
+    font-family: 'Candara', 'Times New Roman', Times, serif;
+    color: rgb(88, 24, 12);
+}
+
+#services p{
+    padding-top: 20px;
+    font-family: 'Georgia', 'Times New Roman', Times, serif;
+    color: rgb(146, 9, 9);
+}
+
+#services h2:hover{
+    cursor: pointer;
+}
+#services h2:before {
+    content:"\2b9E  ";
+    font-weight: 900;
+}
+#services h2.expand:before { 
+    content:"\2b9F  ";
+}
+#services div { 
+    display: none; 
+    
+}
+#services .open { 
+    display: block; 
+}
+
+#slider {
+    padding-top: 20px;
+    width:600px;
+    margin:0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding-bottom: 40px;
+}
+
+#slider  > *{float:left;}
+
+
+#display_panel{
+    width:300px;
+    overflow: hidden;
+}
+
+#image_list_slider{
+    width: 600px;
+    position:relative;
+    left: 0px;
+}
+
+#image_list_slider li{
+    float:left;
+    width:300px;
+    list-style: none;
+}
+
+#image_list_slider  li img{
+    width:100%;
+}
+
+.button_panel {
+    height: 50px;
+    width: 50px;
+    margin: 50px;
+}
+
+#left_button img:hover{
+    cursor: pointer;
+}
+
+
+#right_button img:hover{
+    cursor: pointer;
+}
+
+footer{
+    
+    background-color: rgb(251, 193, 0);
+}
+
+footer div{
+    padding-left: 35px;
+}
+
+.footeritem{
+    padding-top: 25px;
+    align-items: center;
+    float: left;
+    display: block;
+    width: 20%;
+    color: #641111;
+  }
+
+  #copyright{
+      padding-top: 20px;
+      clear: both;
+      text-align: center;
+      color: #380c0c;
+  }

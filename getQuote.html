@@ -1,0 +1,116 @@
+<!-- Name : Tharani Gnanasegaram
+Student number : 8822155 -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="getQuote.css">
+    <title>DoggieGroomers</title>
+</head>
+
+<body>
+    <header>
+        <div id="logoimg">
+            <a href="DoggieGroomers.html">
+                <img id="logo" src="imgs/logo.png" alt="">
+            </a>
+            <h1> <span> Doggie Groomers</span></h1>
+        </div>
+
+
+        <fieldset>
+            <legend>Time</legend>
+            <span id="hours">&nbsp;</span>:
+            <span id="minutes">&nbsp;</span>:
+            <span id="seconds">&nbsp;</span>&nbsp;
+            <span id="ampm">&nbsp;</span>
+        </fieldset>
+    </header>
+
+    <main>
+
+        <h2> <span> Get Quote for Grooming Appointment</span></h2>
+
+        <form id="booking_form" name="booking_form" action="" method="get">
+            <label>Preferred Grooming</label>
+            <div>
+                <input checked type=radio name="groomingtype" value="Full" for="full"> Full Grooming
+                <input type=radio name="groomingtype" value="Basic" for="basic"> Basic Grooming
+            </div><label></label>
+
+            <label for="breed">Breed:</label>
+            <select id="breeds" name="breeds">
+                <option value="Labrador Retriever">Labrador Retriever</option>
+                <option value="French Bulldog">French Bulldog</option>
+                <option value="German Shepherd">German Shepherd</option>
+                <option value="Golden Retriever">Golden Retriever</option>
+                <option value="Rottweiler">Rottweiler</option>
+            </select> <span></span>
+
+            <label for="age">Age</label>
+            <input type="number" id="age" name="age" class="control" min = "1"><span></span>
+
+            <label for="rate">Rate</label>
+            <input type="text" id="rate" name="rate" class="calc"><span></span>
+
+            <label for="tax">Tax</label>
+            <input type="text" id="tax" name="tax" class="calc"><span></span>
+
+            <label for="total">Total amount</label>
+            <input type="text" id="total" name="total" class="calc"><span></span>
+
+            <div id="buttonn">
+                <input type="button" id="get_quote" value="Get Quote">
+            </div>
+
+        </form>
+
+    </main>
+
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+
+    <script src="getQuote.js"></script>
+
+
+
+    <footer>
+        <div>
+            <div class="footeritem">
+                <h3>Opening Hours</h3>
+                <ul>
+                    <li>Monday - Saturday : 10 AM to 8 PM</li>
+                    <li>Sunday : 11 AM to 4 PM</li>
+                </ul>
+            </div>
+            <div class="footeritem">
+                <h3>Contact Us</h3>
+                <ul>
+                    <li>Telephone - 655 899 5478</li>
+                    <li>Mobile - 568 874 5269</li>
+                </ul>
+            </div>
+            <div class="footeritem">
+                <h3>Find us</h3>
+                <ul>
+                    <li>Address : 23, Sea Street, Ontario</li>
+                </ul>
+            </div>
+            <div class="footeritem">
+                <h3>Email us</h3>
+                <ul>
+                    <li>E-mail : doggiegroomers@google.com</li>
+                </ul>
+            </div>
+            <p id="copyright">
+                Copyright &copy; Tharani. All rights reserved.
+            </p>
+        </div>
+
+    </footer>
+</body>
+
+</html>
